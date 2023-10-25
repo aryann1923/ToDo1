@@ -3,7 +3,7 @@ import { View, Text,TouchableOpacity,Image } from 'react-native'
 import imagePath from '../constants/imagePath';
 
 
- const Addbutton=({onPress,name,email,phonenumber,description})=> {
+ function Addbutton({onPress,name,email,phonenumber,description})=> {
   return (
     <View style={{alignSelf:"flex-end"}}>
       <TouchableOpacity onPress={onPress} >
